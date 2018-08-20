@@ -10,3 +10,23 @@
 .contact:hover {
   text-decoration: underline;
 }
+#addressbook {
+  width: 500px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Butterfly Kids', cursive;
+  font-size: 60px;
+}
+
+h2 {
+  font-family: 'Butterfly Kids', cursive;
+  font-size: 40px;
+}
+
+body {
+  background-image: url("../img/crumpledpaper.jpeg");
+  background-repeat: repeat;
+  background-size: auto;
+}

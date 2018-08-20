@@ -3,6 +3,7 @@
 <head>
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fpreviews.123rf.com%2Fimages%2Ffufupix%2Ffufupix1608%2Ffufupix160800088%2F69889377-crumpled-paper-texture-background.jpg&imgrefurl=https%3A%2F%2Fwww.123rf.com%2Fphoto_69889377_crumpled-paper-texture-background.html&docid=yUXKcIRK_HN6DM&tbnid=J4SWjZxlQJ9s8M%3A&vet=10ahUKEwiJ8f3n5PzcAhWJ-lQKHfaaDHMQMwi2AigGMAY..i&w=1300&h=866&bih=1232&biw=1200&q=crumpled%20paper%20background%20free&ved=0ahUKEwiJ8f3n5PzcAhWJ-lQKHfaaDHMQMwi2AigGMAY&iact=mrc&uact=8" rel="stylesheet">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
   <title>Address book</title>
@@ -37,11 +38,15 @@
                 <label for="new-state">State</label>
                 <input type="text" class="form-control new-state">
               </div>
+              <div class="form-group">
+                <label for="new-zip">Zip Code</label>
+                <input type="text" class="form-control new-zip">
+              </div>
             </div>
           </div>
 
+          <button type="submit" class="btn btn-danger">Add</button>
           <span class="btn btn-primary" id="add-address">Another address</span>
-          <button type="submit" class="btn">Add</button>
         </form>
 
         <h2>Contacts:</h2>
@@ -49,7 +54,9 @@
 
         </ul>
       </div>
+    <div class="row2">
       <div class="col-md-6">
+          <img id="addressbook" src="img/address-book.jpg" alt="a picture of an address book">
         <div id="show-contact">
           <h2></h2>
 
@@ -61,6 +68,7 @@
           </ul>
         </div>
       </div>
+    </div>
     </div>
   </div>
 </body>
